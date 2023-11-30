@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+a, button, input, textarea {
+    -webkit-tap-highlight-color: transparent;
+}
+
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    font-size: 100%;
+}
+
+/* 小屏幕设备（如手机）*/
+@media (max-width: 600px) {
+    html {
+        font-size: 90%; /* 字体稍微小一点 */
+    }
+}
+
+/* 中等屏幕设备（如平板）*/
+@media (min-width: 601px) and (max-width: 1024px) {
+    html {
+        font-size: 100%; /* 标准大小 */
+    }
+}
+
+/* 大屏幕设备（如桌面）*/
+@media (min-width: 1025px) {
+    html {
+        font-size: 110%; /* 字体稍微大一点 */
+    }
+}
+
+
+* {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.ec-navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    background-color: #fff;
+    border-bottom: 1px solid #e5e5e5;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
+
+:root {
+    --primary-color: #FFC300;
+}
+
+:root:root {
+    --adm-color-primary: #FFC300;
+    --adm-color-success: #00b578;
+    --adm-color-warning: #ff8f1f;
+    --adm-color-danger: #ff3141;
+
+    --adm-color-white: #ffffff;
+    --adm-color-text: #333333;
+    --adm-color-text-secondary: #666666;
+    --adm-color-weak: #999999;
+    --adm-color-light: #cccccc;
+    --adm-color-border: #eeeeee;
+    --adm-color-box: #f5f5f5;
+    --adm-color-background: #ffffff;
+
+    --adm-font-size-main: var(--adm-font-size-5);
+
+    --adm-font-family: -apple-system, blinkmacsystemfont, 'Helvetica Neue',
+    helvetica, segoe ui, arial, roboto, 'PingFang SC', 'miui',
+    'Hiragino Sans GB', 'Microsoft Yahei', sans-serif;
+}

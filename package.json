@@ -1,0 +1,46 @@
+{
+  "name": "ec-web-h5",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@icon-park/react": "^1.4.2",
+    "@types/node": "^20.10.0",
+    "@types/react-router-dom": "^5.3.3",
+    "@uidotdev/usehooks": "^2.4.1",
+    "antd-mobile": "^5.33.0",
+    "axios": "^1.6.2",
+    "axios-hooks": "^5.0.2",
+    "jsqr": "^1.4.0",
+    "less": "^4.2.0",
+    "lodash.isequal": "^4.5.0",
+    "query-string": "^8.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.20.0",
+    "react-slick": "^0.29.0",
+    "slick-carousel": "^1.8.1",
+    "zustand": "^4.4.6"
+  },
+  "devDependencies": {
+    "@types/lodash.isequal": "^4.5.8",
+    "@types/react": "^18.2.37",
+    "@types/react-dom": "^18.2.15",
+    "@types/react-slick": "^0.23.12",
+    "@typescript-eslint/eslint-plugin": "^6.10.0",
+    "@typescript-eslint/parser": "^6.10.0",
+    "@vitejs/plugin-react-swc": "^3.5.0",
+    "eslint": "^8.53.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.4",
+    "postcss-pxtorem": "^6.0.0",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.0"
+  }
+}

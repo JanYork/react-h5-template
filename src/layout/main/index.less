@@ -1,0 +1,21 @@
+.main-layout {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+
+  .layout-content {
+    flex: 1 1 auto;
+    overflow-y: auto;
+    margin-bottom: 50px;
+  }
+
+  .layout-tab {
+    flex: 0 0 auto;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #fff;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+  }
+}
